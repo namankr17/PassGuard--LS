@@ -8,7 +8,7 @@ const Navbar = () => {
             <span>Pass</span>
             <span className='text-green-700'>Guard/&gt;</span>
         </div>
-        <button className='flex gap-1 items-center cursor-pointer'>
+        <a href='https://github.com/namankr17/PassGuard--LS' target='_blank' className='flex gap-1 items-center cursor-pointer'>
             <lord-icon
                 className='flex'
                 src="https://cdn.lordicon.com/jjxzcivr.json"
@@ -18,7 +18,7 @@ const Navbar = () => {
                 style={{width:'40px',height:'40px'}}>
             </lord-icon>
             <span className='max-[480px]:hidden'>Github</span>
-        </button>
+        </a>
     </nav>
   )
 }
